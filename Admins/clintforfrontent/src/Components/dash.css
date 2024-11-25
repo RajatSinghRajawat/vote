@@ -1,0 +1,111 @@
+/* Dashboard.css */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #1e1e2f;
+  color: white;
+  font-family: Arial, sans-serif;
+  /* overflow: scroll; */
+  height: 100%;
+}
+
+.statistics {
+  padding: 20px;
+  background-color: #2e2e3f;
+  border-radius: 10px;
+  /* width: 10%; */
+  /* height: 20vh; */
+}
+
+.dashboard-row {
+  display: flex;
+  gap: 20px;
+}
+
+.crypto-marketplace,
+.my-balance,
+.quick-transfer {
+  flex: 1;
+  padding: 20px;
+  background-color: #2e2e3f;
+  border-radius: 10px;
+}
+
+.crypto-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.crypto-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.crypto-status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.crypto-status.complete {
+  background-color: green;
+}
+
+.my-balance .balance-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-progress {
+  background-color: #444;
+  height: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  background-color: #00ff00;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.quick-transfer {
+  flex: 1;
+}
+
+.transfer-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #3e3e4f;
+  border-radius: 10px;
+}
+
+.transfer-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.transfer-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555;
+  color: white;
+}
+
+.transfer-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
